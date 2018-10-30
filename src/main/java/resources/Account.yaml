@@ -1,0 +1,52 @@
+test:
+  - acc: 8000906
+    nickName: 3027t
+    pwd: 123456
+    aiaiNum: 8000906
+    sex: g
+    isvip: y
+
+  - acc: 18611111111
+    nickName: 的1503909099560
+    pwd: 123456
+    aiaiNum: 8000321
+    sex: b
+    isvip: n
+
+  - acc: 18676390009
+    nickName: 0009
+    pwd: 123456
+    aiaiNum: 8000895
+    sex: g
+    isvip: n
+
+gama:
+  - acc: 18676390321
+    nickName:
+    pwd: 123456
+    aiaiNum:
+    sex: g
+    isvip: y
+
+  - acc: 9000002
+    nickName:
+    pwd: zxcvbn
+    aiaiNum:
+    sex: b
+    isvip: n
+
+
+prod:
+  - acc: 18676390321
+    nickName:
+    pwd: 123456
+    aiaiNum:
+    sex: g
+    isvip: y
+
+  - acc: 9000002
+    nickName:
+    pwd: zxcvbn
+    aiaiNum:
+    sex: b
+    isvip: n

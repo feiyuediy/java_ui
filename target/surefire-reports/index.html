@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-skipped">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">47 methods,  47 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Login.LoginTest" hash-for-method="QQlogin">QQlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Didi.DidiTest" hash-for-method="didiFollow">didiFollow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Didi.DidiTest" hash-for-method="didiVideo">didiVideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Didi.DidiTest" hash-for-method="didiVoice">didiVoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Didi.DidiTest" hash-for-method="didiYuetiao">didiYuetiao</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Call.CallTest" hash-for-method="fansVideoCall">fansVideoCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Call.CallTest" hash-for-method="fansVioceCall">fansVioceCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Call.CallTest" hash-for-method="fansYuetiao">fansYuetiao</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Login.LoginTest" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Test.Test" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Mine.MineTest" hash-for-method="modifyAge">modifyAge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Mine.MineTest" hash-for-method="modifyHeadImg">modifyHeadImg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Mine.MineTest" hash-for-method="modifyNickName">modifyNickName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Mine.MineTest" hash-for-method="moidfyAddr">moidfyAddr</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Call.CallTest" hash-for-method="nofansVideoCall">nofansVideoCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Call.CallTest" hash-for-method="nofansVioceCall">nofansVioceCall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Call.CallTest" hash-for-method="nofansyuetiao">nofansyuetiao</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_UI_check">test_UI_check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_UI_tag">test_UI_tag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_UIcheck_idphotoUpload">test_UIcheck_idphotoUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_back_idphotoUpload">test_back_idphotoUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_change_list">test_change_list</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_check_deleteAndConnat">test_check_deleteAndConnat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_cilck_back">test_cilck_back</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_click_folder">test_click_folder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_click_head">test_click_head</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_click_idPhoto">test_click_idPhoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_click_uploas">test_click_uploas</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_delete">test_delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_deleteIdphoto">test_deleteIdphoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_dphotoUpload">test_dphotoUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_edit_mood">test_edit_mood</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_local_video">test_local_video</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_mood_floow">test_mood_floow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_noNews_click_upload">test_noNews_click_upload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_noRecord_colse">test_noRecord_colse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_noTopic_upload">test_noTopic_upload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_record_close">test_record_close</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Accost.AccostTest" hash-for-method="test_upload">test_upload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_upload_anonymity">test_upload_anonymity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_upload_local_video">test_upload_local_video</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_upload_txt">test_upload_txt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.UploadFeedTest" hash-for-method="test_upload_txtAndPic">test_upload_txtAndPic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Find.VideoTest" hash-for-method="test_upload_video">test_upload_video</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Login.LoginTest" hash-for-method="weiChatLogin">weiChatLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="xiaoaiai.Login.LoginTest" hash-for-method="weiboLogin">weiboLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Mine.MineTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyAge">
+                  </a> <!-- modifyAge -->
+                  <span class="method-name">modifyAge</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyHeadImg">
+                  </a> <!-- modifyHeadImg -->
+                  <span class="method-name">modifyHeadImg</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyNickName">
+                  </a> <!-- modifyNickName -->
+                  <span class="method-name">modifyNickName</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moidfyAddr">
+                  </a> <!-- moidfyAddr -->
+                  <span class="method-name">moidfyAddr</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Find.VideoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_check_deleteAndConnat">
+                  </a> <!-- test_check_deleteAndConnat -->
+                  <span class="method-name">test_check_deleteAndConnat</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_click_folder">
+                  </a> <!-- test_click_folder -->
+                  <span class="method-name">test_click_folder</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_delete">
+                  </a> <!-- test_delete -->
+                  <span class="method-name">test_delete</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_local_video">
+                  </a> <!-- test_local_video -->
+                  <span class="method-name">test_local_video</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_noRecord_colse">
+                  </a> <!-- test_noRecord_colse -->
+                  <span class="method-name">test_noRecord_colse</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_record_close">
+                  </a> <!-- test_record_close -->
+                  <span class="method-name">test_record_close</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_upload_local_video">
+                  </a> <!-- test_upload_local_video -->
+                  <span class="method-name">test_upload_local_video</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_upload_video">
+                  </a> <!-- test_upload_video -->
+                  <span class="method-name">test_upload_video</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Test.Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Call.CallTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fansVideoCall">
+                  </a> <!-- fansVideoCall -->
+                  <span class="method-name">fansVideoCall</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fansVioceCall">
+                  </a> <!-- fansVioceCall -->
+                  <span class="method-name">fansVioceCall</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fansYuetiao">
+                  </a> <!-- fansYuetiao -->
+                  <span class="method-name">fansYuetiao</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nofansVideoCall">
+                  </a> <!-- nofansVideoCall -->
+                  <span class="method-name">nofansVideoCall</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nofansVioceCall">
+                  </a> <!-- nofansVioceCall -->
+                  <span class="method-name">nofansVioceCall</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nofansyuetiao">
+                  </a> <!-- nofansyuetiao -->
+                  <span class="method-name">nofansyuetiao</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Didi.DidiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="didiFollow">
+                  </a> <!-- didiFollow -->
+                  <span class="method-name">didiFollow</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="didiVideo">
+                  </a> <!-- didiVideo -->
+                  <span class="method-name">didiVideo</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="didiVoice">
+                  </a> <!-- didiVoice -->
+                  <span class="method-name">didiVoice</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="didiYuetiao">
+                  </a> <!-- didiYuetiao -->
+                  <span class="method-name">didiYuetiao</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Accost.AccostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_UI_tag">
+                  </a> <!-- test_UI_tag -->
+                  <span class="method-name">test_UI_tag</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_UIcheck_idphotoUpload">
+                  </a> <!-- test_UIcheck_idphotoUpload -->
+                  <span class="method-name">test_UIcheck_idphotoUpload</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_back_idphotoUpload">
+                  </a> <!-- test_back_idphotoUpload -->
+                  <span class="method-name">test_back_idphotoUpload</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_change_list">
+                  </a> <!-- test_change_list -->
+                  <span class="method-name">test_change_list</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_click_head">
+                  </a> <!-- test_click_head -->
+                  <span class="method-name">test_click_head</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_click_idPhoto">
+                  </a> <!-- test_click_idPhoto -->
+                  <span class="method-name">test_click_idPhoto</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_click_uploas">
+                  </a> <!-- test_click_uploas -->
+                  <span class="method-name">test_click_uploas</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_deleteIdphoto">
+                  </a> <!-- test_deleteIdphoto -->
+                  <span class="method-name">test_deleteIdphoto</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_dphotoUpload">
+                  </a> <!-- test_dphotoUpload -->
+                  <span class="method-name">test_dphotoUpload</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_edit_mood">
+                  </a> <!-- test_edit_mood -->
+                  <span class="method-name">test_edit_mood</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_mood_floow">
+                  </a> <!-- test_mood_floow -->
+                  <span class="method-name">test_mood_floow</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_upload">
+                  </a> <!-- test_upload -->
+                  <span class="method-name">test_upload</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="QQlogin">
+                  </a> <!-- QQlogin -->
+                  <span class="method-name">QQlogin</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weiChatLogin">
+                  </a> <!-- weiChatLogin -->
+                  <span class="method-name">weiChatLogin</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weiboLogin">
+                  </a> <!-- weiboLogin -->
+                  <span class="method-name">weiboLogin</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">xiaoaiai.Find.UploadFeedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_UI_check">
+                  </a> <!-- test_UI_check -->
+                  <span class="method-name">test_UI_check</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_cilck_back">
+                  </a> <!-- test_cilck_back -->
+                  <span class="method-name">test_cilck_back</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_noNews_click_upload">
+                  </a> <!-- test_noNews_click_upload -->
+                  <span class="method-name">test_noNews_click_upload</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_noTopic_upload">
+                  </a> <!-- test_noTopic_upload -->
+                  <span class="method-name">test_noTopic_upload</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_upload_anonymity">
+                  </a> <!-- test_upload_anonymity -->
+                  <span class="method-name">test_upload_anonymity</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_upload_txt">
+                  </a> <!-- test_upload_txt -->
+                  <span class="method-name">test_upload_txt</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_upload_txtAndPic">
+                  </a> <!-- test_upload_txtAndPic -->
+                  <span class="method-name">test_upload_txtAndPic</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;evn&apos; is required by BeforeSuite on method setup but has not been marked @Optional or defined
+
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;macaca.client.AndroidSampleTest&quot;/&gt;
+      &lt;class name=&quot;macaca.client.DesktopSampleTest&quot;/&gt;
+      &lt;class name=&quot;macaca.client.H5SampleTest&quot;/&gt;
+      &lt;class name=&quot;macaca.client.IosSampleTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Accost.AccostTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Call.CallTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Didi.DidiTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Find.HotTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Find.UploadFeedTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Find.VideoTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Login.LoginTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Mine.MineTest&quot;/&gt;
+      &lt;class name=&quot;xiaoaiai.Test.Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(47);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_upload')
+data.setCell(0, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fansVioceCall')
+data.setCell(1, 2, 'xiaoaiai.Call.CallTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'modifyAge')
+data.setCell(2, 2, 'xiaoaiai.Mine.MineTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'didiYuetiao')
+data.setCell(3, 2, 'xiaoaiai.Didi.DidiTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'QQlogin')
+data.setCell(4, 2, 'xiaoaiai.Login.LoginTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_UIcheck_idphotoUpload')
+data.setCell(5, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'didiVideo')
+data.setCell(6, 2, 'xiaoaiai.Didi.DidiTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_dphotoUpload')
+data.setCell(7, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'weiChatLogin')
+data.setCell(8, 2, 'xiaoaiai.Login.LoginTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_noTopic_upload')
+data.setCell(9, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_upload_local_video')
+data.setCell(10, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'modifyNickName')
+data.setCell(11, 2, 'xiaoaiai.Mine.MineTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_click_idPhoto')
+data.setCell(12, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_UI_check')
+data.setCell(13, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_cilck_back')
+data.setCell(14, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_local_video')
+data.setCell(15, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'nofansVideoCall')
+data.setCell(16, 2, 'xiaoaiai.Call.CallTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_back_idphotoUpload')
+data.setCell(17, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'fansVideoCall')
+data.setCell(18, 2, 'xiaoaiai.Call.CallTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'modifyHeadImg')
+data.setCell(19, 2, 'xiaoaiai.Mine.MineTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_check_deleteAndConnat')
+data.setCell(20, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_upload_video')
+data.setCell(21, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'didiFollow')
+data.setCell(22, 2, 'xiaoaiai.Didi.DidiTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test_UI_tag')
+data.setCell(23, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test_upload_txt')
+data.setCell(24, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'login')
+data.setCell(25, 2, 'xiaoaiai.Login.LoginTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'moidfyAddr')
+data.setCell(26, 2, 'xiaoaiai.Mine.MineTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test_record_close')
+data.setCell(27, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test_mood_floow')
+data.setCell(28, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'nofansVioceCall')
+data.setCell(29, 2, 'xiaoaiai.Call.CallTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test_noRecord_colse')
+data.setCell(30, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test')
+data.setCell(31, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'fansYuetiao')
+data.setCell(32, 2, 'xiaoaiai.Call.CallTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test_upload_anonymity')
+data.setCell(33, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test_click_uploas')
+data.setCell(34, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test_edit_mood')
+data.setCell(35, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test_delete')
+data.setCell(36, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test_click_head')
+data.setCell(37, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test_deleteIdphoto')
+data.setCell(38, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'test_upload_txtAndPic')
+data.setCell(39, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'weiboLogin')
+data.setCell(40, 2, 'xiaoaiai.Login.LoginTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test_change_list')
+data.setCell(41, 2, 'xiaoaiai.Accost.AccostTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'nofansyuetiao')
+data.setCell(42, 2, 'xiaoaiai.Call.CallTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'didiVoice')
+data.setCell(43, 2, 'xiaoaiai.Didi.DidiTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'login')
+data.setCell(44, 2, 'xiaoaiai.Test.Test')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'test_click_folder')
+data.setCell(45, 2, 'xiaoaiai.Find.VideoTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'test_noNews_click_upload')
+data.setCell(46, 2, 'xiaoaiai.Find.UploadFeedTest')
+data.setCell(46, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Find.VideoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Mine.MineTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Test.Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Call.CallTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Find.HotTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Didi.DidiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Login.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">xiaoaiai.Find.UploadFeedTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Accost.AccostTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_UI_tag</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_UIcheck_idphotoUpload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_back_idphotoUpload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_change_list</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_click_head</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_click_idPhoto</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_click_uploas</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_deleteIdphoto</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_dphotoUpload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_edit_mood</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_mood_floow</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_upload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Find.UploadFeedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_UI_check</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_cilck_back</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_noNews_click_upload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_noTopic_upload</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_upload_anonymity</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_upload_txt</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_upload_txtAndPic</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Call.CallTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fansVideoCall</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fansVioceCall</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fansYuetiao</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nofansVideoCall</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nofansVioceCall</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nofansyuetiao</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Find.VideoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_check_deleteAndConnat</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_click_folder</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_delete</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_local_video</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_noRecord_colse</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_record_close</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_upload_local_video</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_upload_video</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Didi.DidiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">didiFollow</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">didiVideo</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">didiVoice</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">didiYuetiao</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">QQlogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weiChatLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weiboLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Mine.MineTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">modifyAge</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifyHeadImg</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">modifyNickName</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">moidfyAddr</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">xiaoaiai.Test.Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="xiaoaiai.Mine.MineTest">
+        <methods>
+          <include name="modifyNickName"/>
+          <include name="modifyAge"/>
+          <include name="moidfyAddr"/>
+          <include name="modifyHeadImg"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- xiaoaiai.Mine.MineTest -->
+      <class name="xiaoaiai.Find.VideoTest">
+        <methods>
+          <include name="test_click_folder"/>
+          <include name="test_check_deleteAndConnat"/>
+          <include name="test_upload_video"/>
+          <include name="test_delete"/>
+          <include name="test_record_close"/>
+          <include name="test_upload_local_video"/>
+          <include name="test_noRecord_colse"/>
+          <include name="test_local_video"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- xiaoaiai.Find.VideoTest -->
+      <class name="xiaoaiai.Test.Test">
+        <methods>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- xiaoaiai.Test.Test -->
+      <class name="xiaoaiai.Call.CallTest">
+        <methods>
+          <include name="fansVideoCall"/>
+          <include name="fansVioceCall"/>
+          <include name="nofansVideoCall"/>
+          <include name="nofansVioceCall"/>
+          <include name="nofansyuetiao"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="fansYuetiao"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- xiaoaiai.Call.CallTest -->
+      <class name="xiaoaiai.Didi.DidiTest">
+        <methods>
+          <include name="didiFollow"/>
+          <include name="didiVideo"/>
+          <include name="setUp"/>
+          <include name="didiVoice"/>
+          <include name="didiYuetiao"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- xiaoaiai.Didi.DidiTest -->
+      <class name="xiaoaiai.Accost.AccostTest">
+        <methods>
+          <include name="test_mood_floow"/>
+          <include name="test"/>
+          <include name="test_upload"/>
+          <include name="setup"/>
+          <include name="test_deleteIdphoto"/>
+          <include name="setup"/>
+          <include name="test_edit_mood"/>
+          <include name="test_click_uploas"/>
+          <include name="teardown"/>
+          <include name="test_UI_tag"/>
+          <include name="test_dphotoUpload"/>
+          <include name="test_change_list"/>
+          <include name="test_click_idPhoto"/>
+          <include name="test_UIcheck_idphotoUpload"/>
+          <include name="test_back_idphotoUpload"/>
+          <include name="test_click_head"/>
+        </methods>
+      </class> <!-- xiaoaiai.Accost.AccostTest -->
+      <class name="xiaoaiai.Login.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="weiboLogin"/>
+          <include name="QQlogin"/>
+          <include name="setup"/>
+          <include name="weiChatLogin"/>
+        </methods>
+      </class> <!-- xiaoaiai.Login.LoginTest -->
+      <class name="xiaoaiai.Find.UploadFeedTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="test_noTopic_upload"/>
+          <include name="test_cilck_back"/>
+          <include name="test_upload_txtAndPic"/>
+          <include name="test_UI_check"/>
+          <include name="test_upload_txt"/>
+          <include name="setup"/>
+          <include name="test_noNews_click_upload"/>
+          <include name="test_upload_anonymity"/>
+        </methods>
+      </class> <!-- xiaoaiai.Find.UploadFeedTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
